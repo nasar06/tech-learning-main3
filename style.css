@@ -1,0 +1,32 @@
+.carousel-caption {
+    bottom: 40%;
+}
+
+
+
+/* -----Responsive for mobile------ */
+@media (max-width: 576px) {
+    .trusted-area {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+    }
+
+    .courses-item {
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .trusted-area {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 25%;
+    }
+}
